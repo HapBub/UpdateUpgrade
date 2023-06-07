@@ -48,6 +48,8 @@ def GUI():
 
     window.mainloop()
 
+    
+#Creating a schedule (can be changed)
 
 sc.every().week.do(GUI)
 
