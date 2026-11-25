@@ -4,7 +4,7 @@ import schedule as sc
 import time
 
 
-def GUI():
+def gui():
 
 
     #Making the window
@@ -51,7 +51,7 @@ def GUI():
     
 #Creating a schedule (can be changed)
 
-sc.every().week.do(GUI)
+sc.every().week.do(gui)
 
 while True:
     sc.run_pending()
